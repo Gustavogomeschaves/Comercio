@@ -35,8 +35,9 @@ public class LojaController {
 		
 		// Adicionando os produtos á Lista
 		
-		listaDeProdutos.add(p1);
-		listaDeProdutos.add(p2);
+		listaDeProduto.add(p1);
+		listaDeProduto.add(p2);
+		
 		
 		
 		
