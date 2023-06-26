@@ -28,7 +28,16 @@
                         <th><a href="">Editar</a></th>
                     </tr>
                 </thead>
-
+                <tbody>
+                    <tr th:each="produtos : ${produtos}">
+                        <td th:text="${produto.id}"></td>
+                        <td th:text="${produto.nome}"></td>
+                        <td th:text="${produto.descricao}"></td>
+                        <td th:text="${produto.CodigoBarras}"></td>
+                        <td th:text="${produto.preco}"></td>
+                        <td><a href="#">Editar</a></td>
+                    </tr>
+                </tbody>     
             </table>
         </div>
     </main>
